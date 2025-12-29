@@ -1,0 +1,15 @@
+[project]
+name = "nekocli"
+description = "A cli application to manage self-hosted services"
+version = "1.0.0"
+license = "GPL-3.0-or-later"
+
+dependencies = ["typer >= 0.21.0"]
+
+authors = [
+    {name = "nikoresu"}
+]
+
+[project.scripts]
+greet = "greetings.cli:app"
+
