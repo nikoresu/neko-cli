@@ -11,6 +11,5 @@ authors = [
 ]
 
 [project.scripts]
-greet = "greetings.cli:app"
-containers = "containers.cli:app"
+neko = "neko.cli:app"
 

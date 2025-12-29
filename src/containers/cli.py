@@ -1,8 +1,8 @@
 import typer
-from .containers import containers
+from .containers import list
 
 app = typer.Typer()
-app.command()(containers)
+app.command()(list)
 
 if __name__ == "__main__":
     app()

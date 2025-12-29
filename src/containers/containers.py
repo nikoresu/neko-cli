@@ -22,8 +22,9 @@ def get_container_client():
     return docker_adapter
 
 
-def containers():
-    """Compatibility entrypoint: initialize client and print status."""
+def list():
+    """List all available containers"""
+    
     print("Initializing container client...")
     adapter = get_container_client()
 
